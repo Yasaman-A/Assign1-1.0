@@ -14,8 +14,9 @@ Running JPetStore sample under Tomcat (using the [cargo-maven2-plugin](https://c
   $ mkdir petstore0
 - Enter to the directory
   $ cd petstore0
-- Get the war file for version 0
-  $ 
+- Get the war file for version 1.0 and put it in this folder.
+
+- Unzip the folder and enter into the jpetstore folder 
   
 - Startup the Tomcat server and deploy web application
   $ ./mvnw cargo:run -Dcargo.servlet.port=7070 -P tomcat90;
